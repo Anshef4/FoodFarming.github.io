@@ -99,6 +99,7 @@ body {
     border: none;
     background: #C08D5D;
     color: #FFFAF3;
+    border: 1px solid #C08D5D;
     width: 51px;
     height: 51px;
     position: relative;
