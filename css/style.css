@@ -1,0 +1,136 @@
+@import 'fonts.css';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Avenir';
+}
+
+.page {
+    background: #FFFAF3;
+}
+
+.btn-anim {
+    transform: rotate(90deg);
+}
+
+.d-none {
+    display: none;
+}
+
+.nav-menu .menu-items {
+    text-align: center;
+}
+
+.nav-menu .menu-items a {
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1em;
+    line-height: 27px;
+}
+
+.nav-menu .menu-items .current {
+    color: #C08D5D;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info .title {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 3em;
+    color: #3F4042;
+    line-height: 1em;
+    letter-spacing: 0.06em;
+    margin-bottom: .25em;
+}
+
+.info .title img {
+    height: 1em;
+}
+
+.info .title .stub {
+    font-size: 2.5rem;
+}
+
+.info>img {
+    width: 8em;
+    padding-bottom: .5em;
+}
+
+.info .text {
+    font-size: 1.15em;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+.info .button {
+    margin-top: 1em;
+}
+
+.info .button .button-name {
+    border: 1px solid #C08D5D;
+    font-size: 1em;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    padding: .85em;
+    position: relative;
+    top: 1px;
+
+}
+
+.info .button .button-click {
+    border: none;
+    background: #C08D5D;
+    color: #FFFAF3;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 5px;
+}
+
+@media(min-width:320px) {
+    .pk {
+        display: none;
+    }
+
+    .info {
+        max-width: 300px;
+    }
+
+    .mob .d-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mob a img {
+        height: 4em;
+        align-self: center;
+    }
+
+    .mob .nav-button .fa-ellipsis-v {
+        font-size: 2em;
+        transition: .4s;
+    }
+
+    .mob .nav-button {
+        padding: 1em 2.7em;
+    }
+}
